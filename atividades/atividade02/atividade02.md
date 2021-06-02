@@ -13,6 +13,10 @@ Segue o automato que fiz:
 
 ![image](https://drive.google.com/uc?export=view&id=1NkaoWYsjIyKYVTiQsxwxXebaAmPShkym)
 
+> Correção: 0,2
+> 
+> Veja, do estado q0 saem duas transições em 0, uma para ele mesmo e outra para q1. Então o que você criou não é um DFA, mas NFA.
+
 ### Questão 02: 
 
 Segue o automato:
@@ -20,6 +24,9 @@ Segue o automato:
 
 ![image](https://drive.google.com/uc?export=view&id=1wn2F2YDM6zE2CvLWen_wxIi6q7wYf2ai)
 
+> Correção: 0,5
+> 
+> Tudo OK!
 
 ### Questão 03: 
 Acredito que seja melhor para quando a palavra for muito grande, já que o número de casos do switch vai ser menor.
@@ -50,3 +57,6 @@ While  estado = 1,2,3 ou 4 do
 end while;
 if estado = 5 then aceitacao else erro;
 ~~~
+> Correção: 0,5
+> 
+> Tudo OK!
