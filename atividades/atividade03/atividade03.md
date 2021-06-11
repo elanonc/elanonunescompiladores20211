@@ -1,6 +1,10 @@
 ## Nome: Elano Nunes Caitano
 ## Matrícula: 0473434
 
+> Correção: 1,5
+> 
+> Na questão 01, faltou a argumentação de como você chegou ao autômato final.
+
 ### Questão 01: 
 Com base na aula, eu fui fazendo a transformação por etapas. Durante a aula eu ia fazendo os exemplos no caderno, e consegui desenvolver melhor quando "quebrava" as expressões regulares em partes para aplicar as etapas do metodo de thompson.
 
