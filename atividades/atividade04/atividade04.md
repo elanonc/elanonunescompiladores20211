@@ -1,5 +1,7 @@
 # Atividade 02
-
+> Correção: 2,0 pontos
+> 
+> Suas árvores abstratas não correspondem à precedência e associatividade dos operadores nas árvores de análise.
 ## Nome: Elano Nunes Caitano
 ## Matrícula: 0473434
 
