@@ -2,6 +2,10 @@
 ## Nome: Elano Nunes Caitano
 ## Matrícula: 0473434
 
+> Correção: 2,5
+> 
+> Quase tudo OK, apenas o item 3 e 4 ficaram confusos, como se você tivesse colocado duas respostas.
+
 ### Questão 01:
 
 ### a. (- 2 3 4):
