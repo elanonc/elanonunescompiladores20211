@@ -1,7 +1,10 @@
-typedef enum {StmtK, ExpK} NodeKind; // Tipos b·sicos de estrutura, declaraÁıes (stmtK) e estrutura (ExpK) 
-typedef enum {OpK, ConstK, LexpK, LexpseqK} // StmtKind È o tipo de declaraÁ„o, aqui coloquei OpK para definir um operador e ConstK para um numero inteiro
-              StmtKind;  // AlÈm disso tambÈm tem o LexpK para a express„o e para a sequencia da express„o h· o LexpseqK
-typedef enum {Plus, Minus, Times} ExpKind; // ExpKind È o tipo de express„o, podendo ser OperaÁ„o, Inteiro ou Identificador. Aqui coloquei Plus para representar o +, Minus o - e Times o *. 
+typedef enum {StmtK, ExpK} NodeKind; // Tipos b√°sicos de estrutura, declara√ß√µes (stmtK) e estrutura (ExpK) 
+typedef enum {OpK, ConstK, LexpK, LexpseqK} // StmtKind √© o tipo de declara√ß√£o, aqui coloquei OpK para definir um operador e ConstK para um numero inteiro
+              StmtKind;  // Al√©m disso tamb√©m tem o LexpK para a express√£o e para a sequencia da express√£o h√° o LexpseqK
+typedef enum {Plus, Minus, Times} ExpKind; // ExpKind √© o tipo de express√£o, podendo ser Opera√ß√£o, Inteiro ou Identificador. Aqui coloquei Plus para representar o +, Minus o - e Times o *. 
+
+// Corre√ß√£o: N√£o precisaria colocar o LexpK e LexpseqK, visto que pe√ßo para fazer a √°rvore abstrata. Mas a√≠ voc√™ teria que ter defendido a sua ideia, n√£o colocado duas √°rvores
+// na resposta da 4. Ent√£o fica a impress√£o de que a diferen√ßa entre √°rvore de an√°lise e √°rvore de abstrata n√£o foi dominada.
 typedef struct streenode 
 {
 	ExpKind kind;
@@ -13,7 +16,7 @@ typedef StreeNode *SyntaxTree;
 
 /*
 Fiquei bastante em duvida quanto a necessidade de colocar LexpK e LexpseqK, 
-no exemplo do livro eu havia entendido que, trazendo para a quest„o, 
+no exemplo do livro eu havia entendido que, trazendo para a quest√£o, 
 LexpK e LexpseqK iriam terminar em Op ou ConstK. Na duvida coloquei,
-e se o senhor puder explicar na correÁ„o eu ficaria muito grato
+e se o senhor puder explicar na corre√ß√£o eu ficaria muito grato
 */
