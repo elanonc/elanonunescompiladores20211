@@ -15,6 +15,11 @@ Primeiramente, ao verificar a gramática percebemos que podemos passa-la para EB
 
 declaracao -> identificador (:= exp | (exp-lista)) | outra
 
+> Correção: 0,8
+> 
+> O raciocínio para transformar em EBNF está ok. Porém, você não pode casar um não terminal, como fez em casamento (:= exp). O correto seria casar cada símbolo em separado
+> e depois chamar o procedimento exp, como afirmo no enunciado que já existem.
+
 ```
 procedure declaracao 
 begin 
