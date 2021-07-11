@@ -12,7 +12,7 @@ tipo -> int | float
 var-lista -> identificador var-lista’
 var-lista’ -> , var-lista | ϵ
 
-Um dos objetivos de fazer essa operação de fatoração é tornar a gramática LL(1).
+Um dos objetivos de fazer essa operação de fatoração é torna-la LL(1).
 
 ### Questão 02: 
 
