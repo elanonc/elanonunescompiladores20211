@@ -25,15 +25,15 @@ P(int) = {int} P(float) = {float} P(id) = {id} P(,) = {,} P(ϵ) = {ϵ}
  
 Portanto, fica: 
 
-Primeiro(Declaração) = {int,float}
-Primeiro(Tipo) = {int, float}
-Primeiro(Var-list) = {identificador}
-Primeiro(Var-list) = {",", ϵ}
+Primeiro(Declaração) = {int,float} <br />
+Primeiro(Tipo) = {int, float} <br />
+Primeiro(Var-list) = {identificador} <br />
+Primeiro(Var-list) = {",", ϵ} <br />
 
-Sequencia(Declaração) = {$}
-Sequencia(Tipo) = {identificador}
-Sequencia(Var-list) = {$}
-Sequencia(Var-list) = {$}
+Sequencia(Declaração) = {$} <br />
+Sequencia(Tipo) = {identificador} <br />
+Sequencia(Var-list) = {$} <br />
+Sequencia(Var-list) = {$} <br />
 
 OBS: coloquei aspas apenas pra diferenciar da outra virgula
  
