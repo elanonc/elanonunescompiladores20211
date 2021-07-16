@@ -1,7 +1,9 @@
 # Atividade 08
 ## Nome: Elano Nunes Caitano
 ## Matrícula: 0473434
-
+> Correção: 1,5
+> 
+> Tudo OK!!!
 ### Questão 01:
 
 Note que o não terminal “var-lista” deriva duas vezes o terminal “identificador”, o que permite que façamos a fatoração a esquerda nessa gramática. 
