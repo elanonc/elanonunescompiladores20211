@@ -2,6 +2,9 @@
 ## Nome: Elano Nunes Caitano
 ## Matrícula: 0473434
 
+> Correção: 1,0
+> 
+> Tudo OK!!!
 
 ### Questão 01:
 
