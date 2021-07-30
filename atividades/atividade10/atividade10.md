@@ -3,7 +3,11 @@
 ## Matrícula: 0473434
 > Correção: 1,8
 > 
-> Faltou explicar como como SLR(1) resolveria o conflito. Parece que você ia escrever mais e cortou?
+> Faltou explicar como como SLR(1) resolveria o conflito. Parece que você ia escrever mais e cortou? 
+
+> Eu fiz um rascunho no Word e acabei cortando sem querer quando fui copiar. Complementei aqui a resposta agora, mesmo que não vá mais valer. 
+>
+> Mas caso o senhor veja esse update e puder informar se estava certo eu ficaria agradecido. 
 
 
 ### Questão 01:
@@ -23,4 +27,4 @@ Ou seja, a gramática não é LR(0).
 
 No metodo de análise SLR(1), é possível identificar que esses conflitos não aparecem nos estados. 
 Pegando como exemplo a tabela gerada na questão 2, podemos observar que há estados que carregam e estados que fazem reduções, mas não existe um estado que faça ambas as coisas. 
-Dito isso, mesmo uma gramática não sendo LR(0), na análise SLR(1) os conflitos não geram ambiguidade por conta da 
+Dito isso, mesmo uma gramática não sendo LR(0), na análise SLR(1) os conflitos não geram ambiguidade por conta da análise que é feita do próximo token de entrada, onde se caso o token aparecer depois do não-terminal, o analisador irá reduzir. 
