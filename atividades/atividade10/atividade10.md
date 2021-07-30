@@ -1,6 +1,9 @@
 # Atividade 10
 ## Nome: Elano Nunes Caitano
 ## Matrícula: 0473434
+> Correção: 1,8
+> 
+> Faltou explicar como como SLR(1) resolveria o conflito. Parece que você ia escrever mais e cortou?
 
 
 ### Questão 01:
