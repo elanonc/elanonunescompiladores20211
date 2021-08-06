@@ -6,13 +6,13 @@
 
 | Regras Gramaticais       | Regras Semânticas                      |
 |--------------------------|----------------------------------------|
-| exp -> termo exp'        | exp.val -> termo.val exp'1.val         |
-| exp' -> + termo exp'     | exp'1.val -> + termo.val exp'2.val     |
-| exp' -> - termo exp'     | exp'1.val -> - termo.val exp'2.val     |
-| exp' -> e                | exp'1.val -> e.val                     |
+| exp -> termo exp'1        | exp.val -> termo.val exp'1.val         |
+| exp'1 -> + termo exp'2     | exp'1.val -> + termo.val exp'2.val     |
+| exp'1 -> - termo exp'2     | exp'1.val -> - termo.val exp'2.val     |
+| exp'1 -> e                | exp'1.val -> e.val                     |
 | termo -> fator termo'    | termo.val -> fator.val termo'1.val     |
-| termo' -> * fator termo' | termo'1.val -> * fator.val termo'2.val |
-| termo' -> e              | termo'1.val -> e.val                   |
+| termo'1 -> * fator termo'2 | termo'1.val -> * fator.val termo'2.val |
+| termo'1 -> e              | termo'1.val -> e.val                   |
 | fator -> ( exp )         | fator.val -> exp.val                   |
 | fator -> numero          | fator.val -> numero                    |
 
