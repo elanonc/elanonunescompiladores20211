@@ -33,5 +33,7 @@ exp => (numero - numero) * numero termo’ exp’ <br />
 exp => (numero – numero) * numero exp’ <br />
 exp => (numero – numero) * numero <br />
 
+Fiz um exemplo para a expressão que costuma-se utilizar em questões, a (34-3)*42 ou (- 34 3) * 42
+
 ![image](https://drive.google.com/uc?export=view&id=1xpgDT-hE298GgV1eNl7VDGAg-klS4Xy0)
  
