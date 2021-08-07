@@ -6,13 +6,13 @@
 
 | Regras Gramaticais       | Regras Semânticas                      |
 |--------------------------|----------------------------------------|
-| exp -> termo exp'1        | exp.val -> termo.val exp'1.val         |
-| exp'1 -> + termo exp'2     | exp'1.val -> + termo.val exp'2.val     |
-| exp'1 -> - termo exp'2     | exp'1.val -> - termo.val exp'2.val     |
-| exp'1 -> e                | exp'1.val -> e.val                     |
-| termo -> fator termo'    | termo.val -> fator.val termo'1.val     |
-| termo'1 -> * fator termo'2 | termo'1.val -> * fator.val termo'2.val |
-| termo'1 -> e              | termo'1.val -> e.val                   |
+| exp -> termo exp1'        | exp.val -> termo.val exp1'.val         |
+| exp1' -> + termo exp2'     | exp1'.val -> + termo.val exp2'.val     |
+| exp1' -> - termo exp2'     | exp1'.val -> - termo.val exp2'.val     |
+| exp1' -> e                | exp1'.val -> e                    |
+| termo -> fator termo'    | termo.val -> fator.val termo1'.val     |
+| termo1' -> * fator termo'2 | termo1'.val -> * fator.val termo2'.val |
+| termo1' -> e              | termo1'.val -> e                   |
 | fator -> ( exp )         | fator.val -> exp.val                   |
 | fator -> numero          | fator.val -> numero                    |
 
@@ -33,5 +33,5 @@ exp => (numero - numero) * numero termo’ exp’ <br />
 exp => (numero – numero) * numero exp’ <br />
 exp => (numero – numero) * numero <br />
 
-![image](https://drive.google.com/uc?export=view&id=12fuXDq_fvPdErHApRhAiFDEeRdriw1pH)
+![image](https://drive.google.com/uc?export=view&id=1xpgDT-hE298GgV1eNl7VDGAg-klS4Xy0)
  
