@@ -1,7 +1,9 @@
 # Atividade 12
 ## Nome: Elano Nunes Caitano
 ## Matrícula: 0473434
-
+> Correção: 1,0
+> 
+> Como é que um atributo, val, que recebe valor numérico, pode receber um épsilon?
 ### Questão 01:
 
 | Regras Gramaticais       | Regras Semânticas                      |
