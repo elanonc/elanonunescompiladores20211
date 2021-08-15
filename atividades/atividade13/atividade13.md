@@ -8,7 +8,7 @@ Para a gramática bárvore -> (número bárvore bárvore) | nil desenvolvi as se
 | Regras Gramaticais       | Regras Semânticas                      |
 |--------------------------|----------------------------------------|
 | barvore -> (numero barvore barvore)        | barvore1.ehArvoreBinaria -> (numero.val barvore2.ehArvoreBinaria barvore.ehArvoreBinaria)         |
-| barvore -> nil     | barvore.val = nil.val     |
+| barvore -> nil     | barvore1.val = nil.val     |
 
 A ideia era ter um metodo "ehArvoreBinaria" que verificasse se a árvore está organizada (e consequentemente se é árvore binária. 
 O método está em pseudocodigo, pra implementa-lo utilizei dois métodos auxiliares MAX e MIN que pegam o nó mais a direita e o nó mais a esquerda respectivamente. 
