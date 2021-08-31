@@ -1,6 +1,16 @@
 # Atividade 13
 ## Nome: Elano Nunes Caitano
 ## Matrícula: 0473434
+> Correção: 0,5
+> 
+> Neste caso:
+> 
+> barvore1.ehArvoreBinaria -> (numero.val barvore2.ehArvoreBinaria barvore.ehArvoreBinaria)
+> 
+> Eu não sei se ehArvoreBinaria é um atributo ou é um método. Se for um método, como está sendo chamado?
+> Além do mais, a maneira que você organizou MIN e MAX é complicada. O correto seria a partir das folhas ir sintetizado esses atributos para fazer
+> as comparações nos nós intermediários e finalmente na raiz. Pelo que entendi, seu caso começa na raiz e vai se aprofundando em direção às folhas.
+> Mas você percorre de forma linear, ignorando a estrutura da árvore.
 
 ### Questão 01:
 
