@@ -2,6 +2,11 @@
 ## Nome: Elano Nunes Caitano
 ## Matrícula: 0473434
 
+> Correção: 1,5
+> 
+> Por estrutura eu quis dizer o tipo estruturado de dados, como as _structs_ em C. Você dá um exemplo de um nó para uma função com dois parâmetros, mas
+> caso fosse um número arbitrário, como seria representado?
+
 ### Questão 01:
 
 A atividade solicita a construção de uma estrutura de subárvore adequada para novas estruturas de tipos de funções. Ao ver a gramática passada como exercício, é possível notar que na regra gramátical "fun-decls -> fun id( var-decls ) : tipo-exp ; corpo" de certa forma molda as novas estruturas de tipos de funções que é requisitado na questão. Segue abaixo uma árvore de como pode ser interpretado esse trecho:
