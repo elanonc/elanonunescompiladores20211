@@ -1,4 +1,7 @@
 # Atividade 15
+> Correção: 3,0
+> 
+> Quantidade e tipos de atributos correta.
 ## Nome: Elano Nunes Caitano
 ## Matrícula: 0473434
 
